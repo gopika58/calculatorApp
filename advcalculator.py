@@ -24,7 +24,9 @@ def square():
 def squareroot():
     a=int(input())
     print("squareroot",math.sqrt(a))
-
+def cuberoot():
+    a=int(input())
+    print("cuberoot",a**3)
 print("enter choice")
 choice=input()
 print("enter  number")
@@ -40,3 +42,5 @@ elif(choice=="square"):
     square()
 elif(choice=="squareroot"):
     squareroot()
+elif(choice=="cuberoot"):
+    cuberoot()
